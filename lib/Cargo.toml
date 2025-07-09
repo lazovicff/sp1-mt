@@ -1,0 +1,13 @@
+[package]
+name = "merkle-tree-lib"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+alloy-sol-types = { workspace = true }
+sha3 = { workspace = true }
+hex = { workspace = true }
+
+[[example]]
+name = "merkle_tree_example"
+path = "../examples/merkle_tree_example.rs"

@@ -1,0 +1,32 @@
+# Cargo build
+**/target
+
+# Cargo config
+.cargo
+
+# Profile-guided optimization
+/tmp
+pgo-data.profdata
+
+# MacOS nuisances
+.DS_Store
+
+# Proofs
+**/proof-with-pis.json
+**/proof-with-io.json
+
+# Env
+.env
+
+# Compiler files
+contracts/cache/
+contracts/out/
+
+# Ignores development broadcast logs
+contracts//broadcast
+contracts//broadcast/*/11155111/
+contracts//broadcast/*/31337/
+contracts//broadcast/**/dry-run/
+
+# Docs
+contracts/docs/
